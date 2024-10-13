@@ -1,12 +1,12 @@
-  const user ={
-    username: "Aman",
-    price: 777,
-    WelcomeMessage: function() {
-      console.log(`${this.username} , Welcome to website`);
-      //console.log(this);
+  // const user ={
+  //   username: "Aman",
+  //   price: 777,
+  //   WelcomeMessage: function() {
+  //     console.log(`${this.username} , Welcome to website`);
+  //     //console.log(this);
       
-    }
-  }
+  //   }
+  // }
   // user.WelcomeMessage()
   // user.username = "Kumar"
   // user.WelcomeMessage()
@@ -33,8 +33,12 @@
 
 //Immedietely invoked Function Expression (IIFE)
 
-function chai () {
+(function chai () {
   console.log(`DB CONNECTED`);
   
-}
-chai()
+})();
+
+(  (name) => {
+  console.log( `AMAN ${name}` );
+  
+} ) ("Amankumar")
