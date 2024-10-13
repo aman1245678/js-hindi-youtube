@@ -1,33 +1,33 @@
-// function sayName(){
-//     console.log("A");
-//     console.log("M");
-//     console.log("A");
-//     console.log("N");
-// }
-// // function addNumbers(nm1,nm2){
-// //     console.log(nm1+nm2);
-
-// // }
+function sayName(){
+    console.log("A");
+    console.log("M");
+    console.log("A");
+    console.log("N");
+}
 // function addNumbers(nm1,nm2){
-//     let result = nm1+nm2
-//     return result
-//     console.log("Aman");
+//     console.log(nm1+nm2);
+
+// }
+function addNumbers(nm1,nm2){
+    let result = nm1+nm2
+    return result
+    console.log("Aman");
     
 
-// }
-// const result = addNumbers(3,5)
-// console.log("result",result);
+}
+const result = addNumbers(3,5)
+console.log("result",result);
 
-// // addNumbers(3,4)
-// function loginUserMessage(username){
-//     if(username===undefined){
-//         console.log("please enter username ");
+// addNumbers(3,4)
+function loginUserMessage(username){
+    if(username===undefined){
+        console.log("please enter username ");
         
-//     }
-//     return`${username}just logged in`
-// }
-// // console.log(loginUserMessage("Aman"));
-// console.log(loginUserMessage());
+    }
+    return`${username}just logged in`
+}
+// console.log(loginUserMessage("Aman"));
+console.log(loginUserMessage());
 
 function calculatecartprice(...num1){
     return num1
